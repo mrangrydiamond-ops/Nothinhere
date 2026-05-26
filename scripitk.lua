@@ -1,4 +1,13 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
 
+-- Instances: 87 | Scripts: 3 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ScreenGui
@@ -412,214 +421,387 @@ G2L["2e"]["Color"] = Color3.fromRGB(91, 171, 255);
 G2L["2e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues
+G2L["2f"] = Instance.new("Folder", G2L["26"]);
+G2L["2f"]["Name"] = [[GetValues]];
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues.GetMoney
+G2L["30"] = Instance.new("TextButton", G2L["2f"]);
+G2L["30"]["BorderSizePixel"] = 0;
+G2L["30"]["TextSize"] = 14;
+G2L["30"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["30"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["30"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["30"]["BackgroundTransparency"] = 0.99;
+G2L["30"]["Size"] = UDim2.new(0, 151, 0, 28);
+G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Text"] = [[Get Money]];
+G2L["30"]["Name"] = [[GetMoney]];
+G2L["30"]["Position"] = UDim2.new(0.39749, 0, 0.27451, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues.GetMoney.UIStroke
+G2L["31"] = Instance.new("UIStroke", G2L["30"]);
+G2L["31"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["31"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues.GetBullets
+G2L["32"] = Instance.new("TextButton", G2L["2f"]);
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["TextSize"] = 14;
+G2L["32"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["32"]["BackgroundTransparency"] = 0.99;
+G2L["32"]["Size"] = UDim2.new(0, 151, 0, 28);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Text"] = [[Get Bullets]];
+G2L["32"]["Name"] = [[GetBullets]];
+G2L["32"]["Position"] = UDim2.new(0.39749, 0, 0.40523, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues.GetBullets.UIStroke
+G2L["33"] = Instance.new("UIStroke", G2L["32"]);
+G2L["33"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["33"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues.GetShells
+G2L["34"] = Instance.new("TextButton", G2L["2f"]);
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["TextSize"] = 14;
+G2L["34"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["34"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["34"]["BackgroundTransparency"] = 0.99;
+G2L["34"]["Size"] = UDim2.new(0, 151, 0, 28);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["Text"] = [[Get Shells]];
+G2L["34"]["Name"] = [[GetShells]];
+G2L["34"]["Position"] = UDim2.new(0.39749, 0, 0.52941, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.GetValues.GetShells.UIStroke
+G2L["35"] = Instance.new("UIStroke", G2L["34"]);
+G2L["35"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["35"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.ItemTroll
+G2L["36"] = Instance.new("Folder", G2L["26"]);
+G2L["36"]["Name"] = [[ItemTroll]];
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.ItemTroll.DeleteAllItems
+G2L["37"] = Instance.new("TextButton", G2L["36"]);
+G2L["37"]["BorderSizePixel"] = 0;
+G2L["37"]["TextSize"] = 14;
+G2L["37"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["37"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["37"]["BackgroundTransparency"] = 0.99;
+G2L["37"]["Size"] = UDim2.new(0, 151, 0, 28);
+G2L["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["37"]["Text"] = [[Delete All Items]];
+G2L["37"]["Name"] = [[DeleteAllItems]];
+G2L["37"]["Position"] = UDim2.new(0.67364, 0, 0.4085, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.ItemTroll.DeleteAllItems.UIStroke
+G2L["38"] = Instance.new("UIStroke", G2L["37"]);
+G2L["38"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["38"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.ItemTroll.GetAllItems
+G2L["39"] = Instance.new("TextButton", G2L["36"]);
+G2L["39"]["BorderSizePixel"] = 0;
+G2L["39"]["TextSize"] = 14;
+G2L["39"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["39"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["39"]["BackgroundTransparency"] = 0.99;
+G2L["39"]["Size"] = UDim2.new(0, 151, 0, 28);
+G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["Text"] = [[Get All Items]];
+G2L["39"]["Name"] = [[GetAllItems]];
+G2L["39"]["Position"] = UDim2.new(0.67364, 0, 0.27778, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.ItemTroll.GetAllItems.UIStroke
+G2L["3a"] = Instance.new("UIStroke", G2L["39"]);
+G2L["3a"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["3a"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.TextLabel
+G2L["3b"] = Instance.new("TextLabel", G2L["26"]);
+G2L["3b"]["BorderSizePixel"] = 0;
+G2L["3b"]["TextSize"] = 20;
+G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3b"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["3b"]["BackgroundTransparency"] = 1;
+G2L["3b"]["Size"] = UDim2.new(0, 192, 0, 27);
+G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3b"]["Text"] = [[Item Manipulations]];
+G2L["3b"]["Position"] = UDim2.new(0.50628, 0, 0.10458, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Items.Elements.TextLabel.UIStroke
+G2L["3c"] = Instance.new("UIStroke", G2L["3b"]);
+G2L["3c"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["3c"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
 -- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character
-G2L["2f"] = Instance.new("Frame", G2L["11"]);
-G2L["2f"]["Visible"] = false;
-G2L["2f"]["Interactable"] = false;
-G2L["2f"]["BorderSizePixel"] = 0;
-G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
-G2L["2f"]["Size"] = UDim2.new(0, 717, 0, 306);
-G2L["2f"]["Position"] = UDim2.new(0, 0, 0.08955, 0);
-G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2f"]["Name"] = [[Character]];
-G2L["2f"]["BackgroundTransparency"] = 0.8;
+G2L["3d"] = Instance.new("Frame", G2L["11"]);
+G2L["3d"]["Visible"] = false;
+G2L["3d"]["Interactable"] = false;
+G2L["3d"]["BorderSizePixel"] = 0;
+G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["3d"]["Size"] = UDim2.new(0, 717, 0, 306);
+G2L["3d"]["Position"] = UDim2.new(0, 0, 0.08955, 0);
+G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"]["Name"] = [[Character]];
+G2L["3d"]["BackgroundTransparency"] = 0.8;
 
 
 -- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.UIStroke
-G2L["30"] = Instance.new("UIStroke", G2L["2f"]);
-G2L["30"]["Color"] = Color3.fromRGB(91, 171, 255);
-G2L["30"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements
-G2L["31"] = Instance.new("Folder", G2L["2f"]);
-G2L["31"]["Name"] = [[Elements]];
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly
-G2L["32"] = Instance.new("Folder", G2L["31"]);
-G2L["32"]["Name"] = [[Fly]];
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly.FlyScript
-G2L["33"] = Instance.new("TextButton", G2L["32"]);
-G2L["33"]["BorderSizePixel"] = 0;
-G2L["33"]["TextSize"] = 14;
-G2L["33"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
-G2L["33"]["BackgroundColor3"] = Color3.fromRGB(91, 171, 255);
-G2L["33"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["33"]["BackgroundTransparency"] = 1;
-G2L["33"]["Size"] = UDim2.new(0, 202, 0, 66);
-G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["33"]["Text"] = [[Execute Fly Script]];
-G2L["33"]["Name"] = [[FlyScript]];
-G2L["33"]["Position"] = UDim2.new(0.01116, 0, 0.7549, 0);
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly.FlyScript.UIStroke
-G2L["34"] = Instance.new("UIStroke", G2L["33"]);
-G2L["34"]["Color"] = Color3.fromRGB(91, 171, 255);
-G2L["34"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly.FlyScript.LocalScript
-G2L["35"] = Instance.new("LocalScript", G2L["33"]);
-
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport
-G2L["36"] = Instance.new("Frame", G2L["11"]);
-G2L["36"]["Visible"] = false;
-G2L["36"]["Interactable"] = false;
-G2L["36"]["BorderSizePixel"] = 0;
-G2L["36"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
-G2L["36"]["Size"] = UDim2.new(0, 717, 0, 306);
-G2L["36"]["Position"] = UDim2.new(0, 0, 0.08955, 0);
-G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["36"]["Name"] = [[Teleport]];
-G2L["36"]["BackgroundTransparency"] = 0.8;
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.UIStroke
-G2L["37"] = Instance.new("UIStroke", G2L["36"]);
-G2L["37"]["Color"] = Color3.fromRGB(91, 171, 255);
-G2L["37"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements
-G2L["38"] = Instance.new("Folder", G2L["36"]);
-G2L["38"]["Name"] = [[Elements]];
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer
-G2L["39"] = Instance.new("Folder", G2L["38"]);
-G2L["39"]["Name"] = [[TpToPlayer]];
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame
-G2L["3a"] = Instance.new("ScrollingFrame", G2L["39"]);
-G2L["3a"]["Active"] = true;
-G2L["3a"]["BorderSizePixel"] = 0;
-G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3a"]["Size"] = UDim2.new(0, 199, 0, 229);
-G2L["3a"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["Position"] = UDim2.new(0.01534, 0, 0.14052, 0);
-G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["BackgroundTransparency"] = 1;
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.UIStroke
-G2L["3b"] = Instance.new("UIStroke", G2L["3a"]);
-G2L["3b"]["Color"] = Color3.fromRGB(91, 171, 255);
-G2L["3b"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.Elements
-G2L["3c"] = Instance.new("Folder", G2L["3a"]);
-G2L["3c"]["Name"] = [[Elements]];
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.Elements.Example
-G2L["3d"] = Instance.new("TextButton", G2L["3c"]);
-G2L["3d"]["Interactable"] = false;
-G2L["3d"]["BorderSizePixel"] = 0;
-G2L["3d"]["TextSize"] = 14;
-G2L["3d"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
-G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3d"]["BackgroundTransparency"] = 1;
-G2L["3d"]["Size"] = UDim2.new(0, 178, 0, 21);
-G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3d"]["Text"] = [[]];
-G2L["3d"]["Name"] = [[Example]];
-G2L["3d"]["Visible"] = false;
-G2L["3d"]["Position"] = UDim2.new(0.02513, 0, 0.01949, 0);
-
-
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.Elements.Example.UIStroke
 G2L["3e"] = Instance.new("UIStroke", G2L["3d"]);
 G2L["3e"]["Color"] = Color3.fromRGB(91, 171, 255);
 G2L["3e"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.TextLabel
-G2L["3f"] = Instance.new("TextLabel", G2L["39"]);
-G2L["3f"]["BorderSizePixel"] = 0;
-G2L["3f"]["TextSize"] = 20;
-G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3f"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
-G2L["3f"]["BackgroundTransparency"] = 1;
-G2L["3f"]["Size"] = UDim2.new(0, 196, 0, 20);
-G2L["3f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3f"]["Text"] = [[Player List (click to tp)]];
-G2L["3f"]["Position"] = UDim2.new(0.01953, 0, 0.03922, 0);
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements
+G2L["3f"] = Instance.new("Folder", G2L["3d"]);
+G2L["3f"]["Name"] = [[Elements]];
 
 
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.TextLabel.UIStroke
-G2L["40"] = Instance.new("UIStroke", G2L["3f"]);
-G2L["40"]["Color"] = Color3.fromRGB(91, 171, 255);
-G2L["40"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Speed
+G2L["40"] = Instance.new("Folder", G2L["3f"]);
+G2L["40"]["Name"] = [[Speed]];
 
 
--- StarterGui.ScreenGui.TextLabel.Close
-G2L["41"] = Instance.new("TextButton", G2L["2"]);
-G2L["41"]["TextWrapped"] = true;
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Speed.Ws
+G2L["41"] = Instance.new("TextBox", G2L["40"]);
+G2L["41"]["Name"] = [[Ws]];
+G2L["41"]["PlaceholderColor3"] = Color3.fromRGB(54, 104, 151);
 G2L["41"]["BorderSizePixel"] = 0;
 G2L["41"]["TextSize"] = 14;
-G2L["41"]["TextScaled"] = true;
 G2L["41"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
 G2L["41"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["41"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["41"]["BackgroundTransparency"] = 1;
-G2L["41"]["Size"] = UDim2.new(0, 17, 0, 17);
+G2L["41"]["PlaceholderText"] = [[Walk Speed (16 - Deafult)]];
+G2L["41"]["Size"] = UDim2.new(0, 175, 0, 39);
+G2L["41"]["Position"] = UDim2.new(0.01395, 0, 0.03922, 0);
 G2L["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["41"]["Text"] = [[X]];
-G2L["41"]["Name"] = [[Close]];
-G2L["41"]["Position"] = UDim2.new(0.9749, 0, 0, 0);
+G2L["41"]["Text"] = [[]];
+G2L["41"]["BackgroundTransparency"] = 1;
 
 
--- StarterGui.ScreenGui.TextLabel.Close.UIStroke
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Speed.Ws.UIStroke
 G2L["42"] = Instance.new("UIStroke", G2L["41"]);
-G2L["42"]["Thickness"] = 2;
 G2L["42"]["Color"] = Color3.fromRGB(91, 171, 255);
 G2L["42"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
 
 
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Speed.Jp
+G2L["43"] = Instance.new("TextBox", G2L["40"]);
+G2L["43"]["Name"] = [[Jp]];
+G2L["43"]["PlaceholderColor3"] = Color3.fromRGB(54, 104, 151);
+G2L["43"]["BorderSizePixel"] = 0;
+G2L["43"]["TextSize"] = 14;
+G2L["43"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["43"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["43"]["PlaceholderText"] = [[Jump Power (50 - Deafult)]];
+G2L["43"]["Size"] = UDim2.new(0, 175, 0, 39);
+G2L["43"]["Position"] = UDim2.new(0.014, 0, 0.2, 0);
+G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["43"]["Text"] = [[]];
+G2L["43"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Speed.Jp.UIStroke
+G2L["44"] = Instance.new("UIStroke", G2L["43"]);
+G2L["44"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["44"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly
+G2L["45"] = Instance.new("Folder", G2L["3f"]);
+G2L["45"]["Name"] = [[Fly]];
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly.FlyScript
+G2L["46"] = Instance.new("TextButton", G2L["45"]);
+G2L["46"]["BorderSizePixel"] = 0;
+G2L["46"]["TextSize"] = 14;
+G2L["46"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["46"]["BackgroundColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["46"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["46"]["BackgroundTransparency"] = 1;
+G2L["46"]["Size"] = UDim2.new(0, 173, 0, 36);
+G2L["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["46"]["Text"] = [[Execute Fly Script]];
+G2L["46"]["Name"] = [[FlyScript]];
+G2L["46"]["Position"] = UDim2.new(0.01116, 0, 0.85294, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly.FlyScript.UIStroke
+G2L["47"] = Instance.new("UIStroke", G2L["46"]);
+G2L["47"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["47"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport
+G2L["48"] = Instance.new("Frame", G2L["11"]);
+G2L["48"]["Visible"] = false;
+G2L["48"]["Interactable"] = false;
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["48"]["Size"] = UDim2.new(0, 717, 0, 306);
+G2L["48"]["Position"] = UDim2.new(0, 0, 0.08955, 0);
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["Name"] = [[Teleport]];
+G2L["48"]["BackgroundTransparency"] = 0.8;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.UIStroke
+G2L["49"] = Instance.new("UIStroke", G2L["48"]);
+G2L["49"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["49"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements
+G2L["4a"] = Instance.new("Folder", G2L["48"]);
+G2L["4a"]["Name"] = [[Elements]];
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer
+G2L["4b"] = Instance.new("Folder", G2L["4a"]);
+G2L["4b"]["Name"] = [[TpToPlayer]];
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame
+G2L["4c"] = Instance.new("ScrollingFrame", G2L["4b"]);
+G2L["4c"]["Active"] = true;
+G2L["4c"]["BorderSizePixel"] = 0;
+G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["Size"] = UDim2.new(0, 199, 0, 229);
+G2L["4c"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4c"]["Position"] = UDim2.new(0.01534, 0, 0.14052, 0);
+G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4c"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.UIStroke
+G2L["4d"] = Instance.new("UIStroke", G2L["4c"]);
+G2L["4d"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["4d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.Elements
+G2L["4e"] = Instance.new("Folder", G2L["4c"]);
+G2L["4e"]["Name"] = [[Elements]];
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.Elements.Example
+G2L["4f"] = Instance.new("TextButton", G2L["4e"]);
+G2L["4f"]["Interactable"] = false;
+G2L["4f"]["BorderSizePixel"] = 0;
+G2L["4f"]["TextSize"] = 14;
+G2L["4f"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["4f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4f"]["BackgroundTransparency"] = 1;
+G2L["4f"]["Size"] = UDim2.new(0, 178, 0, 21);
+G2L["4f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4f"]["Text"] = [[]];
+G2L["4f"]["Name"] = [[Example]];
+G2L["4f"]["Visible"] = false;
+G2L["4f"]["Position"] = UDim2.new(0.02513, 0, 0.01949, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.ScrollingFrame.Elements.Example.UIStroke
+G2L["50"] = Instance.new("UIStroke", G2L["4f"]);
+G2L["50"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["50"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.TextLabel
+G2L["51"] = Instance.new("TextLabel", G2L["4b"]);
+G2L["51"]["BorderSizePixel"] = 0;
+G2L["51"]["TextSize"] = 20;
+G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["51"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["51"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["51"]["BackgroundTransparency"] = 1;
+G2L["51"]["Size"] = UDim2.new(0, 196, 0, 20);
+G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["51"]["Text"] = [[Player List (click to tp)]];
+G2L["51"]["Position"] = UDim2.new(0.01953, 0, 0.03922, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Teleport.Elements.TpToPlayer.TextLabel.UIStroke
+G2L["52"] = Instance.new("UIStroke", G2L["51"]);
+G2L["52"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["52"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
+-- StarterGui.ScreenGui.TextLabel.Close
+G2L["53"] = Instance.new("TextButton", G2L["2"]);
+G2L["53"]["TextWrapped"] = true;
+G2L["53"]["BorderSizePixel"] = 0;
+G2L["53"]["TextSize"] = 14;
+G2L["53"]["TextScaled"] = true;
+G2L["53"]["TextColor3"] = Color3.fromRGB(91, 171, 255);
+G2L["53"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["53"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["53"]["BackgroundTransparency"] = 1;
+G2L["53"]["Size"] = UDim2.new(0, 17, 0, 17);
+G2L["53"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["53"]["Text"] = [[X]];
+G2L["53"]["Name"] = [[Close]];
+G2L["53"]["Position"] = UDim2.new(0.9749, 0, 0, 0);
+
+
+-- StarterGui.ScreenGui.TextLabel.Close.UIStroke
+G2L["54"] = Instance.new("UIStroke", G2L["53"]);
+G2L["54"]["Thickness"] = 2;
+G2L["54"]["Color"] = Color3.fromRGB(91, 171, 255);
+G2L["54"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+
 -- StarterGui.ScreenGui.TextLabel.Close.LocalScript
-G2L["43"] = Instance.new("LocalScript", G2L["41"]);
+G2L["55"] = Instance.new("LocalScript", G2L["53"]);
 
 
 
 -- StarterGui.ScreenGui.TextLabel.LocalScript
-G2L["44"] = Instance.new("LocalScript", G2L["2"]);
+G2L["56"] = Instance.new("LocalScript", G2L["2"]);
 
 
 
 -- StarterGui.ScreenGui.LocalScript
-G2L["45"] = Instance.new("LocalScript", G2L["1"]);
+G2L["57"] = Instance.new("LocalScript", G2L["1"]);
 
 
 
--- StarterGui.ScreenGui.TextLabel.Elements.MF.Menus.Frames.Character.Elements.Fly.FlyScript.LocalScript
-local function C_35()
-local script = G2L["35"];
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
-	end)
-end;
-task.spawn(C_35);
 -- StarterGui.ScreenGui.TextLabel.Close.LocalScript
-local function C_43()
-local script = G2L["43"];
+local function C_55()
+local script = G2L["55"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent:Destroy()
 	end)
 end;
-task.spawn(C_43);
+task.spawn(C_55);
 -- StarterGui.ScreenGui.TextLabel.LocalScript
-local function C_44()
-local script = G2L["44"];
+local function C_56()
+local script = G2L["56"];
 	local gui = script.Parent
 	local dragging, dragInput, dragStart, startPos
 	
@@ -647,10 +829,10 @@ local script = G2L["44"];
 		end
 	end)
 end;
-task.spawn(C_44);
+task.spawn(C_56);
 -- StarterGui.ScreenGui.LocalScript
-local function C_45()
-local script = G2L["45"];
+local function C_57()
+local script = G2L["57"];
 	local MBTNSF = script.Parent.TextLabel.Elements.MF.Menus
 	local RS = game:GetService("RunService")
 	local RepStorage = game:GetService("ReplicatedStorage")
@@ -763,7 +945,6 @@ local script = G2L["45"];
 	local GISCF = IM.Elements.GetItem.ScrollingFrame
 	local IBtns = GISCF.Elements
 	
-	-- ПУТЬ К СПИСКУ ИГРОКОВ И ИХ КНОПКАМ
 	local PLSCF = TM.Elements.TpToPlayer.ScrollingFrame
 	local PBtns = PLSCF.Elements
 	
@@ -828,7 +1009,6 @@ local script = G2L["45"];
 		end
 	end)
 	
-	-- ГЛАВНЫЙ ПОТОК ОБНОВЛЕНИЯ ИНТЕРФЕЙСА (Раз в 0.5 секунд)
 	task.spawn(function()
 		while true do
 			----------------------------------------------------
@@ -854,6 +1034,7 @@ local script = G2L["45"];
 				end
 			end
 	
+			-- Скрываем только созданные кнопки, не трогая Elements
 			for _, button in pairs(GISCF:GetChildren()) do
 				if button:IsA("TextButton") and button.Name ~= "Example" then
 					button.Visible = false
@@ -973,12 +1154,12 @@ local script = G2L["45"];
 				end
 			end
 	
-			GISCF.CanvasSize = UDim2.new(0, 0, 0, 53 * #pickupsList)
+			-- Автоматический размер: Высота кнопки (53) умноженная на количество предметов + запас
+			GISCF.CanvasSize = UDim2.new(0, 0, 0, (53 * #pickupsList) + 20)
 	
 			----------------------------------------------------
-			-- 2. ОБРАБОТКА И СПИСОК ИГРОКОВ (НОВОЕ)
+			-- 2. ОБРАБОТКА И СПИСОК ИГРОКОВ
 			----------------------------------------------------
-			-- Скрываем старые кнопки игроков перед обновлением
 			for _, button in pairs(PLSCF:GetChildren()) do
 				if button:IsA("TextButton") and button.Name ~= "Example" then
 					button.Visible = false
@@ -991,12 +1172,10 @@ local script = G2L["45"];
 				local validPlayerIndex = 0
 	
 				for _, targetPlr in pairs(playerlist) do
-					-- Не добавляем в список кнопок самого себя
 					if targetPlr ~= Plr then
 						validPlayerIndex = validPlayerIndex + 1
 						local PBtn = PLSCF:FindFirstChild(targetPlr.Name)
 	
-						-- Создаем физическую кнопку, если её ещё нет
 						if not PBtn then
 							PBtn = PlayerExampleBtn:Clone()
 							PBtn.Name = targetPlr.Name
@@ -1004,18 +1183,15 @@ local script = G2L["45"];
 	
 							local targetName = targetPlr.Name
 							PBtn.MouseButton1Click:Connect(function()
-								-- Ищем игрока заново в момент клика, чтобы избежать ошибок если он вышел
 								local foundPlayer = game.Players:FindFirstChild(targetName)
 								if foundPlayer and foundPlayer.Character and foundPlayer.Character:FindFirstChild("HumanoidRootPart") then
 									if Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart") then
-										-- Мгновенная телепортация к выбранному игроку
 										Plr.Character.HumanoidRootPart.CFrame = foundPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0, 2, 0)
 									end
 								end
 							end)
 						end
 	
-						-- Настраиваем текст и позицию кнопки игрока
 						PBtn.Text = targetPlr.DisplayName or targetPlr.Name
 						PBtn.Position = UDim2.new(PBtn.Position.X.Scale, PBtn.Position.X.Offset, 0, 53 * (validPlayerIndex - 1))
 						PBtn.Visible = true
@@ -1023,13 +1199,14 @@ local script = G2L["45"];
 					end
 				end
 	
-				PLSCF.CanvasSize = UDim2.new(0, 0, 0, 53 * validPlayerIndex)
+				-- Автоматический размер: Высота кнопки (53) умноженная на количество живых игроков + запас
+				PLSCF.CanvasSize = UDim2.new(0, 0, 0, (53 * validPlayerIndex) + 20)
 			end
 	
 			task.wait(0.5)
 		end
 	end)
 end;
-task.spawn(C_45);
+task.spawn(C_57);
 
 return G2L["1"], require;
